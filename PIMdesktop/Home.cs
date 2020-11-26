@@ -55,5 +55,23 @@ namespace PIMdesktop
         {
             Application.Run(new Cadastro());
         }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            nt = new Thread(BuscaForm);
+            nt.SetApartmentState(ApartmentState.MTA);
+            nt.Start();
+        }
+
+        private void BuscaForm()
+        {
+            Application.Run(new Busca());
+        }
     }
 }

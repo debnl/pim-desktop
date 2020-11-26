@@ -11,12 +11,32 @@ using System.Threading;
 
 namespace PIMdesktop
 {
-    public partial class Cadastro : Form
+    public partial class Busca : Form
     {
         Thread nt;
-        public Cadastro()
+        public Busca()
         {
             InitializeComponent();
+        }
+
+        private void tBclientesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tBclientesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.dBpimDataSet);
+
+        }
+
+        private void Busca_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'dBpimDataSet.TBclientes'. Você pode movê-la ou removê-la conforme necessário.
+            this.tBclientesTableAdapter.Fill(this.dBpimDataSet.TBclientes);
+
+        }
+
+        private void tBclientesBindingNavigator_RefreshItems(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,41 +50,6 @@ namespace PIMdesktop
         private void HomeForm()
         {
             Application.Run(new Home());
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tBclientesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.tBclientesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dBpimDataSet);
-
-        }
-
-        private void Cadastro_Load(object sender, EventArgs e)
-        {
-            // TODO: esta linha de código carrega dados na tabela 'dBpimDataSet.TBclientes'. Você pode movê-la ou removê-la conforme necessário.
-            this.tBclientesTableAdapter.Fill(this.dBpimDataSet.TBclientes);
-
-        }
-
-        private void nOMETextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tELEFONELabel_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

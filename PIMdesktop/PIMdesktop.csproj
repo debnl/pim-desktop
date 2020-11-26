@@ -46,11 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Busca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Busca.Designer.cs">
+      <DependentUpon>Busca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBpimDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBpimDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -72,6 +83,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Busca.resx">
+      <DependentUpon>Busca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +108,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DBpimDataSet.xsc">
+      <DependentUpon>DBpimDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBpimDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBpimDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBpimDataSet.xss">
+      <DependentUpon>DBpimDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
