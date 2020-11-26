@@ -1,0 +1,12 @@
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\bin\Debug\PIMdesktop.exe.config
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\bin\Debug\PIMdesktop.exe
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\bin\Debug\PIMdesktop.pdb
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.csprojAssemblyReference.cache
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.Form1.resources
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.Properties.Resources.resources
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.csproj.GenerateResource.cache
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.csproj.CoreCompileInputs.cache
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.exe
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.pdb
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.Home.resources
+C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.Perfil.resources
