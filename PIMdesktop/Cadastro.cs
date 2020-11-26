@@ -11,22 +11,12 @@ using System.Threading;
 
 namespace PIMdesktop
 {
-    public partial class Perfil : Form
+    public partial class Cadastro : Form
     {
         Thread nt;
-        public Perfil()
+        public Cadastro()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Perfil_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -42,7 +32,12 @@ namespace PIMdesktop
             Application.Run(new Home());
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

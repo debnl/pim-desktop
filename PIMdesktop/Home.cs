@@ -42,5 +42,18 @@ namespace PIMdesktop
         {
             Application.Run(new Perfil());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            nt = new Thread(CadastroForm);
+            nt.SetApartmentState(ApartmentState.MTA);
+            nt.Start();
+        }
+
+        private void CadastroForm()
+        {
+            Application.Run(new Cadastro());
+        }
     }
 }

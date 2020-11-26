@@ -10,3 +10,16 @@ C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.e
 C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.pdb
 C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.Home.resources
 C:\Users\deborah.leite\source\repos\PIMdesktop\PIMdesktop\obj\Debug\PIMdesktop.Perfil.resources
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\bin\Debug\PIMdesktop.exe.config
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\bin\Debug\PIMdesktop.exe
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\bin\Debug\PIMdesktop.pdb
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.csprojAssemblyReference.cache
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.Form1.resources
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.Home.resources
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.Perfil.resources
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.Properties.Resources.resources
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.csproj.GenerateResource.cache
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.csproj.CoreCompileInputs.cache
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.exe
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.pdb
+C:\Users\debpu\Documents\deb\faculdade\4o sem\PIM\pim-desktop\PIMdesktop\obj\Debug\PIMdesktop.Cadastro.resources
