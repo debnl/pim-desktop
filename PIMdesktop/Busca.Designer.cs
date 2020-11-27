@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Busca));
             this.label1 = new System.Windows.Forms.Label();
             this.dBpimDataSet = new PIMdesktop.DBpimDataSet();
             this.tBclientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -51,7 +52,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(381, 30);
+            this.label1.Location = new System.Drawing.Point(403, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 34);
@@ -89,7 +90,7 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.tBclientesDataGridView.DataSource = this.tBclientesBindingSource;
-            this.tBclientesDataGridView.Location = new System.Drawing.Point(79, 91);
+            this.tBclientesDataGridView.Location = new System.Drawing.Point(101, 90);
             this.tBclientesDataGridView.Name = "tBclientesDataGridView";
             this.tBclientesDataGridView.RowHeadersWidth = 51;
             this.tBclientesDataGridView.RowTemplate.Height = 24;
@@ -142,7 +143,7 @@
             this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.LavenderBlush;
-            this.button1.Location = new System.Drawing.Point(425, 524);
+            this.button1.Location = new System.Drawing.Point(447, 508);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(199, 47);
@@ -155,11 +156,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 610);
+            this.ClientSize = new System.Drawing.Size(1072, 589);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tBclientesDataGridView);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Busca";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Busca";
             this.Load += new System.EventHandler(this.Busca_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dBpimDataSet)).EndInit();

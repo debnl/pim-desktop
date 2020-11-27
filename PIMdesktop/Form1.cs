@@ -19,20 +19,49 @@ namespace PIMdesktop
             InitializeComponent();
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "admin" && textBox2.Text == "1234")
+            string Conexao = ("Server=DEB; Database=DBpim; User ID=sa; Password=***********; Persist Security Info=True; ");
+            var connection = new MySql.Data.MySqlClient.MySqlConnection(Conexao);
+            var comand = connection.CreateCommand();
+            MySqlCommand query = new MySqlCommand("SELECT * FROM TBusuarios WHERE usuario = '" + textBox1.Text + "' and senha = '" + textBox2.Text + "'", connection);
+            connection.Open();
+            DataTable dataTable = new DataTable();
+            MySqlDataAdapter da = new MySqlDataAdapter(query);
+            da.Fill(dataTable);
+            
+
+            foreach (DataRow list in dataTable.Rows)
             {
-                this.Close();
-                nt = new Thread(HomeForm);
-                nt.SetApartmentState(ApartmentState.MTA);
-                nt.Start();
+                if (Convert.ToInt32(list.ItemArray[0]) > 0)
+                {
+                    this.Close();
+                    nt = new Thread(HomeForm);
+                    nt.SetApartmentState(ApartmentState.MTA);
+                    nt.Start();
+                }
+                else
+                {
+                    MessageBox.Show("Login/Senha inválidos!");
+                }
             }
-            else
-            {
-                MessageBox.Show("Login/Senha inválidos!");
-            }
+
+            connection.Close();
         }
+
+        /* if (textBox1.Text == "admin" && textBox2.Text == "1234")
+        {
+            this.Close();
+            nt = new Thread(HomeForm);
+            nt.SetApartmentState(ApartmentState.MTA);
+            nt.Start();
+        }
+        else
+        {
+            MessageBox.Show("Login/Senha inválidos!");
+        }
+    }*/
 
         private void HomeForm()
         {

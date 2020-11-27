@@ -73,5 +73,31 @@ namespace PIMdesktop
         {
             Application.Run(new Busca());
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            nt = new Thread(RelatorioForm);
+            nt.SetApartmentState(ApartmentState.MTA);
+            nt.Start();
+        }
+
+        private void RelatorioForm()
+        {
+            Application.Run(new Relatorio());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            nt = new Thread(RForm1Form);
+            nt.SetApartmentState(ApartmentState.MTA);
+            nt.Start();
+        }
+
+        private void RForm1Form()
+        {
+            Application.Run(new Form1());
+        }
     }
 }

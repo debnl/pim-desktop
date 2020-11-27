@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using MySql.Data;
+
 
 namespace PIMdesktop
 {
@@ -21,6 +23,7 @@ namespace PIMdesktop
 
         private void button1_Click(object sender, EventArgs e)
         {
+        
             this.Close();
             nt = new Thread(HomeForm);
             nt.SetApartmentState(ApartmentState.MTA);
